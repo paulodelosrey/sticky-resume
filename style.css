@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    min-width: 270px;
     box-sizing: border-box;
 }
 
@@ -109,6 +110,12 @@ p {
     }
     h1 {
         margin: 0;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .main-container {
+        width: 90%;
     }
   }
   
