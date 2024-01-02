@@ -50,15 +50,15 @@ h1:hover {
 .main {
     margin: 0;
     padding: 0;
-    height: 75vh;
+    height: 70vh;
     display: flex;
 }
 
 .main-container {
     margin: auto;
     padding: 0;
-    height: 65vh;
-    width: 60%;
+    height: 53vh;
+    width: 330px;
     background-color: #fff2ab;
 }
 
