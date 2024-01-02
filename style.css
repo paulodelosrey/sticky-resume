@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    box-sizing: border-box;
 }
 
 .header {
@@ -50,16 +51,19 @@ h1:hover {
 .main {
     margin: 0;
     padding: 0;
-    height: 70vh;
+    height: 75vh;
     display: flex;
 }
 
 .main-container {
     margin: auto;
     padding: 0;
-    height: 53vh;
+    height: 49vh;
     width: 330px;
-    background-color: #fff2ab;
+    background-color: #fff7d1;
+    border-top: 5vh solid #fff2ab;
+    border-radius: 16px;
+    box-shadow: 0 0 20px grey;
 }
 
 .footer {
