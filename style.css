@@ -58,12 +58,51 @@ h1:hover {
 .main-container {
     margin: auto;
     padding: 0;
-    height: 49vh;
+    height: 54vh;
     width: 330px;
     background-color: #fff7d1;
-    border-top: 5vh solid #fff2ab;
     border-radius: 16px;
     box-shadow: 0 0 20px grey;
+    position: relative;
+}
+
+.top-bar {
+    margin: auto;
+    padding: 0;
+    height: 5vh;
+    width: 100%;
+    background-color: #fff2ab;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    position: absolute;
+    top: 0;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.more {
+    margin: 0;
+    margin-left: 1.1rem;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-family: "RubiK";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.more:hover {
+    color: rgb(196, 196, 196)
+}
+
+.welcome {
+    margin-top: 10vh;
+    margin-left: 1.1rem;
+    padding: 0;
+    text-align: left;
+    font-family: "RubiK";
+    font-weight: normal;
 }
 
 .footer {
