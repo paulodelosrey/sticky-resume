@@ -26,6 +26,7 @@ body {
     margin: auto;
     padding: 0;
     width: 40px;
+    user-select: none;
 }
 
 .branch-container {
@@ -42,6 +43,7 @@ h1 {
     font-family: "Rubik Doodle Shadow";
     font-size: 2.5rem;
     margin-right: 0.5rem;
+    user-select: none;
 }
 
 h1:hover {
@@ -90,6 +92,7 @@ h1:hover {
     font-family: "RubiK";
     font-weight: bold;
     font-size: 1.5rem;
+    user-select: none;
 }
 
 .more:hover {
@@ -103,6 +106,7 @@ h1:hover {
     text-align: left;
     font-family: "RubiK";
     font-weight: normal;
+    user-select: none;
 }
 
 .footer {
