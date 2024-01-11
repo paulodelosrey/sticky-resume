@@ -1,52 +1,12 @@
-const optionsEl = document.getElementById("options")
-const topBarEl = document.getElementById("top-bar")
-const mainContainerEl = document.getElementById("main-container")
-
-document.getElementById("more").addEventListener("click", function() {
-    if(window.getComputedStyle(optionsEl).display === "none") {
-        optionsEl.style.display = "flex"
-        document.getElementsByClassName("welcome")[0].style.marginTop = "3vh"
-        document.getElementById("list-div").style.marginTop = "3vh";
-    } else {
-        optionsEl.style.display = "none"
-        document.getElementsByClassName("welcome")[0].style.marginTop = "8vh"
-        document.getElementById("list-div").style.marginTop = "8vh";
-    }
-    
-})
-
-document.getElementById("notes-list").addEventListener("click", function() {
-    optionsEl.style.display = "none"
-    document.getElementById("list-div").style.display = "flex"
-    document.getElementById("welcome-div").style.display = "none"
-    document.getElementById("list-div").style.marginTop = "8vh"; 
-});
-
-document.getElementsByClassName("back")[0].addEventListener("click", function(){
-    document.getElementById("list-div").style.display = "none"
-    document.getElementById("welcome-div").style.display = "flex"
-    document.getElementById("welcome-div").style.marginTop = "5vh"
-})
-
-document.addEventListener("click", function(e) {
-    if(e.target.classList.contains("yellow")) {
-        topBarEl.style.backgroundColor = "#fff2ab"
-        mainContainerEl.style.backgroundColor = "#fff7d1"
-    }
-    else if(e.target.classList.contains("green")) {
-        topBarEl.style.backgroundColor = "#cbf1c4"
-        mainContainerEl.style.backgroundColor = "#e4f9e0"
-    }
-    else if(e.target.classList.contains("blue")) {
-        topBarEl.style.backgroundColor = "#cde9ff"
-        mainContainerEl.style.backgroundColor = "#e2f1ff"
-    }
-    else if(e.target.classList.contains("pink")) {
-        topBarEl.style.backgroundColor = "#ffcce5"
-        mainContainerEl.style.backgroundColor = "#ffe4f1"
-    }
-    else if(e.target.classList.contains("grey")) {
-        topBarEl.style.backgroundColor = "#e1dfdd"
-        mainContainerEl.style.backgroundColor = "#f3f2f1"
-    }
-})
+const colorThemes = {
+    amarillo : "#fff2ab",
+    amarilloSuave : "#fff7d1",
+    verde : "#cbf1c4",
+    verdeSuave: "#e4f9e0",
+    azul: "#cde9ff",
+    azulSuave: "#e2f1ff",
+    rosado: "#ffcce5",
+    rosadoSuave: "#ffe4f1",
+    gris: "#e1dfdd",
+    grisSuave: "#f3f2f1",
+}
