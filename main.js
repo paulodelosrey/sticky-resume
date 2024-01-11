@@ -5,9 +5,27 @@ const mainContainerEl = document.getElementById("main-container")
 document.getElementById("more").addEventListener("click", function() {
     if(window.getComputedStyle(optionsEl).display === "none") {
         optionsEl.style.display = "flex"
+        document.getElementsByClassName("welcome")[0].style.marginTop = "3vh"
+        document.getElementById("list-div").style.marginTop = "3vh";
     } else {
         optionsEl.style.display = "none"
+        document.getElementsByClassName("welcome")[0].style.marginTop = "8vh"
+        document.getElementById("list-div").style.marginTop = "8vh";
     }
+    
+})
+
+document.getElementById("notes-list").addEventListener("click", function() {
+    optionsEl.style.display = "none"
+    document.getElementById("list-div").style.display = "flex"
+    document.getElementById("welcome-div").style.display = "none"
+    document.getElementById("list-div").style.marginTop = "8vh"; 
+});
+
+document.getElementsByClassName("back")[0].addEventListener("click", function(){
+    document.getElementById("list-div").style.display = "none"
+    document.getElementById("welcome-div").style.display = "flex"
+    document.getElementById("welcome-div").style.marginTop = "5vh"
 })
 
 document.addEventListener("click", function(e) {

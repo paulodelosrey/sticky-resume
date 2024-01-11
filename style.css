@@ -158,6 +158,10 @@ h1:hover {
     align-items: center;
 }
 
+.notes-list:hover {
+    background-color: rgb(196, 196, 196);
+}
+
 .list-svg {
     height: 50%;
     margin-left: 1.1rem;
@@ -173,6 +177,11 @@ h1:hover {
     user-select: none;
 }
 
+.welcome-div {
+    margin: 0;
+    padding: 0;
+}
+
 .welcome {
     margin-top: 8vh;
     margin-left: 1.1rem;
@@ -181,6 +190,39 @@ h1:hover {
     font-family: "RubiK";
     font-weight: normal;
     user-select: none;
+}
+
+.list-div {
+    margin: 0;
+    padding: 0;
+    display: none;
+    margin-top: 8vh;
+    margin-left: 1.1rem;
+    padding: 0;
+    text-align: left;
+    font-family: "RubiK";
+    font-weight: normal;
+    user-select: none;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.item {
+    margin-bottom: 0.7rem;
+    margin-left: 0;
+    padding: 0;
+    text-align: left;
+    font-family: "RubiK";
+    font-weight: normal;
+    user-select: none;
+}
+.item:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.back:hover {
+    color: red
 }
 
 .footer {
