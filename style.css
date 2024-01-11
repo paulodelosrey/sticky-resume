@@ -35,6 +35,7 @@ body {
     width: 80%;
     display: flex;
     justify-content: flex-end;
+    user-select: none;
 }
 
 h1 {
@@ -99,8 +100,81 @@ h1:hover {
     color: rgb(196, 196, 196)
 }
 
+.options {
+    margin: 0;
+    margin-top: 5vh;
+    padding: 0;
+    width: 100%;
+    height: 18vh;
+    border: none;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+}
+
+.colors {
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.color-button {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+}
+
+.yellow {
+    background-color: #fff7d1;
+}
+
+.green {
+    background-color: #e4f9e0;
+}
+
+.blue {
+    background-color: #e2f1ff;
+}
+
+.pink {
+    background-color: #ffe4f1;
+}
+
+.grey {
+    background-color: #f3f2f1;
+}
+
+.notes-list {
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.list-svg {
+    height: 50%;
+    margin-left: 1.1rem;
+}
+
+.listofnotes {
+    margin: 0;
+    margin-left: 1rem;
+    padding: 0;
+    text-align: left;
+    font-family: "RubiK";
+    font-weight: normal;
+    user-select: none;
+}
+
 .welcome {
-    margin-top: 10vh;
+    margin-top: 8vh;
     margin-left: 1.1rem;
     padding: 0;
     text-align: left;
