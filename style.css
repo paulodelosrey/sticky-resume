@@ -200,6 +200,7 @@ p {
     margin: 0;
     font-weight: bolder;
     text-align: center;
+    user-select: none;
 }
 
 @media (min-width: 650px) {
