@@ -27,6 +27,7 @@ body {
     padding: 0;
     width: 40px;
     user-select: none;
+    pointer-events: none;
 }
 
 .branch-container {
