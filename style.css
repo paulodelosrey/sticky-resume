@@ -1,10 +1,20 @@
+/* pattern {
+    margin
+    padding
+    border
+    height
+    width
+    background
+    color
+    font
+    display
+} */
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
     box-sizing: border-box;
 }
-
 .header {
     margin: 0;
     padding: 0;
@@ -14,14 +24,12 @@ body {
     display: flex;
     align-items: center;
 }
-
 .img-container {
     margin: 0;
     padding: 0;
     width: 20%;
     display: flex;
 }
-
 .owl {
     margin: auto;
     padding: 0;
@@ -29,7 +37,6 @@ body {
     user-select: none;
     pointer-events: none;
 }
-
 .branch-container {
     margin: 0;
     padding: 0;
@@ -38,53 +45,47 @@ body {
     justify-content: flex-end;
     user-select: none;
 }
-
 h1 {
     margin: 0;
+    margin-right: 0.5rem;
     padding: 0; 
     font-family: "Rubik Doodle Shadow";
     font-size: 2.5rem;
-    margin-right: 0.5rem;
     user-select: none;
 }
-
 h1:hover {
     color: white
 }
-
 .main {
     margin: 0;
     padding: 0;
     height: 75vh;
     display: flex;
 }
-
 .main-container {
     margin: auto;
     padding: 0;
+    border-radius: 16px;
+    box-shadow: 0 0 20px grey;
     height: 54vh;
     width: 330px;
     background-color: #fff7d1;
-    border-radius: 16px;
-    box-shadow: 0 0 20px grey;
     position: relative;
 }
-
 .top-bar {
     margin: auto;
     padding: 0;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     height: 5vh;
     width: 100%;
     background-color: #fff2ab;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    position: absolute;
-    top: 0;
     display:flex;
     justify-content: flex-start;
     align-items: center;
+    position: absolute;
+    top: 0;
 }
-
 .more {
     margin: 0;
     margin-left: 1.1rem;
@@ -92,25 +93,31 @@ h1:hover {
     border: none;
     background-color: transparent;
     font-family: "RubiK";
-    font-weight: bold;
     font-size: 1.5rem;
+    font-weight: bold;
     user-select: none;
 }
-
 .more:hover {
     color: rgb(196, 196, 196)
 }
-
 .options {
     margin: 0;
     margin-top: 5vh;
     padding: 0;
+    border: none;
     width: 100%;
     height: 18vh;
-    border: none;
     background-color: white;
     display: none;
     flex-direction: column;
+}
+
+.visible {
+    display: flex;
+}
+
+.nonVisible {
+    display: none;
 }
 
 .colors {
@@ -121,36 +128,29 @@ h1:hover {
     justify-content: space-around;
     align-items: center;
 }
-
 .color-button {
     margin: 0;
     padding: 0;
+    border: none;
+    border-radius: 50%;
     height: 30px;
     width: 30px;
-    border-radius: 50%;
-    border: none;
 }
-
 .yellow {
     background-color: #fff7d1;
 }
-
 .green {
     background-color: #e4f9e0;
 }
-
 .blue {
     background-color: #e2f1ff;
 }
-
 .pink {
     background-color: #ffe4f1;
 }
-
 .grey {
     background-color: #f3f2f1;
 }
-
 .notes-list {
     margin: 0;
     padding: 0;
@@ -158,74 +158,61 @@ h1:hover {
     display: flex;
     align-items: center;
 }
-
 .notes-list:hover {
     background-color: rgb(196, 196, 196);
 }
-
 .list-svg {
-    height: 50%;
     margin-left: 1.1rem;
+    height: 50%;
 }
-
 .listofnotes {
     margin: 0;
     margin-left: 1rem;
     padding: 0;
-    text-align: left;
     font-family: "RubiK";
     font-weight: normal;
+    text-align: left;
     user-select: none;
 }
-
 .welcome-div {
     margin: 0;
+    margin-top: 8vh;
     padding: 0;
 }
-
 .welcome {
-    margin-top: 8vh;
+    margin: 0;
     margin-left: 1.1rem;
     padding: 0;
-    text-align: left;
     font-family: "RubiK";
     font-weight: normal;
+    text-align: left;
     user-select: none;
 }
-
 .list-div {
     margin: 0;
-    padding: 0;
-    display: none;
     margin-top: 8vh;
     margin-left: 1.1rem;
     padding: 0;
-    text-align: left;
     font-family: "RubiK";
     font-weight: normal;
-    user-select: none;
+    display: none;
     flex-direction: column;
-    overflow: hidden;
+    text-align: left;
+    user-select: none;
 }
-
 .item {
     margin-bottom: 0.7rem;
     margin-left: 0;
     padding: 0;
-    text-align: left;
     font-family: "RubiK";
     font-weight: normal;
+    text-align: left;
     user-select: none;
 }
 .item:hover {
-    cursor: pointer;
     font-weight: bolder;
+    cursor: pointer;
 }
-
-.back:hover {
-    color: red
-}
-
 .footer {
     margin: 0;
     padding: 0;
@@ -238,18 +225,16 @@ h1:hover {
     justify-content: center;
     align-items: center;
 }
-
 p {
     margin: 0;
     font-weight: bolder;
     text-align: center;
     user-select: none;
 }
-
 @media (min-width: 650px) {
     h1 {
-        font-size: 4rem;
         margin-right: 2rem;
+        font-size: 4rem;
     }
     .owl {
         width: 75px;
@@ -278,4 +263,5 @@ p {
         width: 90%;
     }
   }
+
   
