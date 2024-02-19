@@ -19,13 +19,15 @@ body {
     margin: 0;
     padding: 0;
     height: 20vh;
-    background-image: url("images/degradado.jpg");
+    width: 100%;
+    /* background-image: url("images/degradado.jpg"); */
     background-size: cover;
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 .img-container {
-    margin: 0;
+    margin: 0 8px;
     padding: 0;
     width: 20%;
     display: flex;
@@ -37,10 +39,12 @@ body {
     border-radius: 50%;
     filter: grayscale(100%);
     user-select: none;
+    transition: 1s all;
 }
 
 .me:hover {
     filter: grayscale(0);
+    transform: scale(1.1);
 }
 
 
@@ -53,15 +57,16 @@ body {
     user-select: none;
 }
 h1 {
-    margin: 0;
-    margin-right: 0.5rem;
+    margin: 0 8px;
     padding: 0; 
     font-family: "Rubik Doodle Shadow";
     font-size: 2.5rem;
     user-select: none;
+    transition: 1s all;
 }
 h1:hover {
-    color: white
+    color: grey;
+    transform: scale(1.1);
 }
 .main {
     margin: 0;
@@ -76,7 +81,7 @@ h1:hover {
     box-shadow: 0 0 20px grey;
     height: 54vh;
     width: 330px;
-    background-color: #fff7d1;
+    background-color: #f3f2f1;
     position: relative;
 }
 .top-bar {
@@ -86,7 +91,7 @@ h1:hover {
     border-top-right-radius: 16px;
     height: 5vh;
     width: 100%;
-    background-color: #fff2ab;
+    background-color: #e1dfdd;
     display:flex;
     justify-content: flex-start;
     align-items: center;
@@ -253,6 +258,7 @@ p {
     }
     .img-container {
         display: none;
+        margin-left: 2px;
     }
     .branch-container {
         display: flex;
