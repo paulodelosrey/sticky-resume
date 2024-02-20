@@ -20,25 +20,16 @@ body {
     padding: 0;
     height: 20vh;
     width: 100%;
-    /* background-image: url("images/degradado.jpg"); */
-    background-size: cover;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
-.img-container {
-    margin: 0 8px;
-    padding: 0;
-    width: 20%;
-    display: flex;
-}
 .me {
-    margin: auto;
+    margin: 0 0 0 32px;
     padding: 0;
     width: 80px;
     border-radius: 50%;
     filter: grayscale(100%);
-    user-select: none;
     transition: 1s all;
 }
 
@@ -46,22 +37,11 @@ body {
     filter: grayscale(0);
     transform: scale(1.1);
 }
-
-
-.branch-container {
-    margin: 0;
-    padding: 0;
-    width: 80%;
-    display: flex;
-    justify-content: flex-end;
-    user-select: none;
-}
 h1 {
-    margin: 0 8px;
+    margin: 0 32px 0 0;
     padding: 0; 
     font-family: "Rubik Doodle Shadow";
     font-size: 2.5rem;
-    user-select: none;
     transition: 1s all;
 }
 h1:hover {
@@ -107,7 +87,6 @@ h1:hover {
     font-family: "RubiK";
     font-size: 1.5rem;
     font-weight: bold;
-    user-select: none;
 }
 .more:hover {
     color: rgb(196, 196, 196)
@@ -184,7 +163,6 @@ h1:hover {
     font-family: "RubiK";
     font-weight: normal;
     text-align: left;
-    user-select: none;
 }
 .welcome-div {
     margin: 0;
@@ -198,7 +176,6 @@ h1:hover {
     font-weight: normal;
     text-align: left;
     line-height: 1.4;
-    user-select: none;
 }
 .list-div {
     margin: 0;
@@ -209,7 +186,6 @@ h1:hover {
     display: none;
     flex-direction: column;
     text-align: left;
-    user-select: none;
 }
 .item {
     margin: 0px 1.1rem 1.1rem 0px;
@@ -217,7 +193,6 @@ h1:hover {
     font-family: "RubiK";
     font-weight: normal;
     text-align: left;
-    user-select: none;
 }
 .item:hover {
     font-weight: bolder;
@@ -239,35 +214,25 @@ p {
     margin: 0;
     font-weight: bolder;
     text-align: center;
-    user-select: none;
 }
 @media (min-width: 650px) {
     h1 {
-        margin-right: 2rem;
         font-size: 4rem;
-    }
-    .owl {
-        width: 75px;
     }
   }
 
-  @media (max-width: 340px) {
+  @media (max-width: 380px) {
     .header{
         display: flex;
         justify-content: center;
     }
-    .img-container {
+    .me {
         display: none;
-        margin-left: 2px;
-    }
-    .branch-container {
-        display: flex;
-        justify-content: center;
     }
     h1 {
         margin: 0;
     }
-  }
+}
 
   @media (max-width: 360px) {
     .main-container {
