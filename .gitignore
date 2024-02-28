@@ -1,0 +1,12 @@
+node_modules/
+package-lock.json
+.env
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Carpeta que aloja el archivo JPG
+images/
