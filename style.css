@@ -245,6 +245,21 @@ p {
     .main-container {
         width: 90%;
     }
-  }
+}
 
-  
+    @media (max-width: 360px) {
+    .main-container {
+        width: 90%;
+    }
+}
+
+    @media (max-width: 480px) {
+        .me {
+            filter: grayscale(0);
+            pointer-events: none;
+        }
+        
+        h1 {
+            pointer-events: none;
+        }
+  }
