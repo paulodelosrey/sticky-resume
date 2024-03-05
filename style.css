@@ -228,6 +228,11 @@ h1:hover {
     font-weight: bolder;
     cursor: pointer;
 }
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
 .footer {
     margin: 0;
     padding: 0;
