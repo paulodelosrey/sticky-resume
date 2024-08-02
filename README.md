@@ -42,5 +42,5 @@ cd stickyresume
 
 ## Contacto
 
-Desarrollado por Paulo De los Reyes. Puedes contactarme a través de mi [LinkedIn](https://www.linkedin.com/in/paulodelosrey/) o por correo electrónico a `paulodelosrey@gmail.com.
+`paulodelosrey@gmail.com.
 
