@@ -1,19 +1,46 @@
-Mi nombre es Paulo. Desarrollador Web de Colombia.
+# StickyResume
 
-En este repositorio encontraras alojados los archivos que componen mi portfolio landing page, la cual se inspira en el diseño de una sticky note.
+StickyResume es una plantilla de portafolio que simula una nota adhesiva (sticky note). Está diseñada para que cualquier persona pueda hacer las modificaciones necesarias y alojar su propio portafolio.
 
-Dando clic a los tres puntos > lista de páginas, podrás:
+## Descripción
 
-Descargar o ver en línea mi CV.
-Ver mis proyectos.
-Ir a mis entradas de blog.
-Este es el link de la página en vivo:
+Esta plantilla permite a los usuarios personalizar su portafolio de manera sencilla. Incluye secciones para:
 
-https://paulowebdev.netlify.app/
+- Descargar o ver en línea el CV.
+- Ver proyectos.
+- Ir a entradas de blog.
 
-Esta es una captura de un análisis de la página con Lighthouse:
+## Enlace a la Página en Vivo
 
-![image](https://github.com/paulodelosrey/myapp/assets/135145158/af8c65c3-1c97-4ae7-a0a1-ce25a5d60791)
+Puedes ver la plantilla en vivo en el siguiente enlace:
+[https://stickyresume.netlify.app/](https://stickyresume.netlify.app/)
 
+## Estructura del Proyecto
 
-Estoy atento a cualquier recomendación.
+- `index.html`: Archivo principal HTML.
+- `style.css`: Archivo de estilos CSS.
+- `main.js`: Archivo JavaScript para la funcionalidad interactiva.
+- `images/`: Carpeta con las imágenes utilizadas.
+
+## Tecnologías Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Cómo Ejecutar el Proyecto
+
+1. Clona este repositorio:
+bash
+git clone https://github.com/paulodelosrey/stickyresume.git
+
+2. Navega al directorio del proyecto:
+bash
+cd stickyresume
+
+3. Abre el archivo `index.html` en tu navegador preferido.
+
+## Contacto
+
+Desarrollado por Paulo De los Reyes. Puedes contactarme a través de mi [LinkedIn](https://www.linkedin.com/in/paulodelosrey/) o por correo electrónico a `paulodelosrey@gmail.com.
+
